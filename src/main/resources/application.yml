@@ -1,8 +1,15 @@
 management:
+  info:
+    git:
+      mode: "full"
   endpoint:
     shutdown:
       enabled: true
+    health:
+#      show-details: always
+      show-components: always
   endpoints:
     web:
       exposure:
         include: "*"
+
